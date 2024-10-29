@@ -11,13 +11,13 @@ package com.mycompany.registering;
 public class Task {
     
     
-    private String taskName;
-    private int taskNumber;
-    private String taskDescription;
-    private String developerDetails;
-    private String taskID;
-    private int taskDuration;
-    private String taskStatus;
+    String taskName;
+    int taskNumber;
+    String taskDescription;
+    String developerDetails;
+    String taskID;
+    int taskDuration;
+    String taskStatus;
     
     public Task(String taskName, int taskNumber, String taskDecsription, String developerDetails, int taskDuration, String taskStatus1){
         this.taskName = taskName;
