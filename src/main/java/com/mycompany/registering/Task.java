@@ -10,14 +10,13 @@ package com.mycompany.registering;
  */
 public class Task {
     
-    
-    String taskName;
-    int taskNumber;
-    String taskDescription;
-    String developerDetails;
-    String taskID;
-    int taskDuration;
-    String taskStatus;
+   public String taskName;
+   public int taskNumber;
+   public String taskDescription;
+   public String developerDetails;
+   public String taskID;
+   public int taskDuration;
+   public String taskStatus;
     
     public Task(String taskName, int taskNumber, String taskDecsription, String developerDetails, int taskDuration, String taskStatus1){
         this.taskName = taskName;
@@ -53,5 +52,33 @@ public class Task {
     
     public int returnTotalHours(){
         return taskDuration;
+    }
+    
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public int getTaskNumber() {
+        return taskNumber;
+    }
+
+    public String getTaskDescription() {
+        return taskDescription;
+    }
+
+    public String getDeveloperDetails() {
+        return developerDetails;
+    }
+
+    public String getTaskID() {
+        return taskID;
+    }
+
+    public int getTaskDuration() {
+        return taskDuration;
+    }
+
+    public String getTaskStatus() {
+        return taskStatus;
     }
 }
